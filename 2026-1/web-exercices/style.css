@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 2em 1em;
+    background-color: #1b1b1b;
+    color: #aaaaaa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.cabecalho__info {
+    list-style-type: none;
+    margin: 0 0 2rem 0;
+    padding: 1.5em;
+    background-color: #242424;
+    border-radius: 8px;
+}
+
+.cabecalho__info li {
+    margin-bottom: 8px;
+}
+
+.cabecalho__titulo {
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.cabecalho__titulo h1 {
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+
+.sessao {
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: #ffffff;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 0.4em;
+    margin-top: 1.5em;
+}
+
+p {
+    margin-bottom: 1.2em;
+}
+
+.cartao-atividade {
+    background-color: #242424;
+    padding: 1.5em;
+    border-radius: 8px;
+    margin-bottom: 2em;
+    border: 1px solid #333333;
+}
+
+.cartao-atividade h3 {
+    color: #00adb5;
+    margin-top: 0;
+}
+
+.cartao-atividade h4 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+.rodape {
+    border-top: 1px solid #333333;
+}
+
+.rodape h3 {
+    color: #ffffff;
+}
+
+.rodape a {
+    color: #00adb5;
+    text-decoration: none;
+}
